@@ -1,0 +1,29 @@
+{
+  "profileSummary": "Replace this with a compact description of the kind of apartment and neighborhood you want.",
+  "maximumMonthlyRent": 3500,
+  "bedroomTypes": ["studio", "1 bedroom"],
+  "highestPriorityLocations": [
+    "Example neighborhood or cross streets"
+  ],
+  "acceptableLocations": [
+    "Example secondary neighborhood"
+  ],
+  "locationsToAvoid": [
+    "Example excluded neighborhood or block"
+  ],
+  "positiveSignals": [
+    "good natural light",
+    "laundry in building"
+  ],
+  "negativeSignals": [
+    "shared bathroom",
+    "ground-floor unit with poor privacy"
+  ],
+  "commutePreferences": "Describe the destinations, days, and acceptable transit tradeoffs.",
+  "scamSignals": [
+    "payment requested before a tour",
+    "landlord claims to be out of the country"
+  ],
+  "alertScoreThreshold": 80,
+  "digestScoreThreshold": 55
+}

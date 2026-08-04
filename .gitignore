@@ -1,2 +1,17 @@
 .DS_Store
 docs/context.md
+
+# Local dependencies and generated Apps Script bundle
+node_modules/
+dist/
+coverage/
+
+# clasp project/account credentials
+.clasp.json
+.clasprc.json
+
+# Local secrets and preferences
+.env
+.env.*
+!.env.example
+config/preferences.json

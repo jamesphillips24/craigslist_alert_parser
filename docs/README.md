@@ -1,3 +1,8 @@
-Parses craigslist saved search email notifications using the openai api and a given context document. It then texts the user through telegram if a posting fits their preferences.
+# Project documentation
 
-I need housing!!! ;-;
+Parses Craigslist saved-search email notifications using the OpenAI API and sends matching listings to the user through Telegram.
+
+- [Setup](setup.md)
+- [Architecture](architecture.md)
+
+Personal housing context belongs in the ignored `context.md` file and is not committed to Git.
