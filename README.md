@@ -6,7 +6,7 @@ The runtime is a standalone Google Apps Script project. This repository holds th
 
 ## What it does
 
-- Polls a configurable Gmail query every five minutes.
+- Polls a configurable Gmail query every ten minutes.
 - Processes only unseen Gmail messages and listing IDs.
 - Skips listings that are clearly over the configured maximum rent.
 - Uses structured OpenAI output to score the remaining candidates.
@@ -34,4 +34,4 @@ Follow [docs/setup.md](docs/setup.md). You will provide Gmail, OpenAI, Telegram,
 - `baselineExistingAlerts()` marks the current search results as already seen without LLM calls or notifications.
 - `runCraigslistAlerts()` processes new alert emails.
 - `runDailyDigest()` sends queued borderline candidates.
-- `installTriggers()` installs the five-minute and daily triggers.
+- `installTriggers()` installs the ten-minute and daily triggers.

@@ -73,7 +73,7 @@ Apps Script will ask for Gmail read-only, external-request, and trigger-manageme
 
 Run `installTriggers()` once. It creates:
 
-- `runCraigslistAlerts()` every five minutes.
+- `runCraigslistAlerts()` every ten minutes.
 - `runDailyDigest()` once each evening around 6 PM in the project time zone.
 
 Apps Script schedules clock triggers within a time window rather than at an exact second.

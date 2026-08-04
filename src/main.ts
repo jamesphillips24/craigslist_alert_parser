@@ -85,9 +85,9 @@ export function installTriggers(): void {
   for (const trigger of ScriptApp.getProjectTriggers()) {
     if (handlerNames.has(trigger.getHandlerFunction())) ScriptApp.deleteTrigger(trigger);
   }
-  ScriptApp.newTrigger("runCraigslistAlerts").timeBased().everyMinutes(5).create();
+  ScriptApp.newTrigger("runCraigslistAlerts").timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger("runDailyDigest").timeBased().atHour(18).everyDays(1).create();
-  console.info("Installed a five-minute alert trigger and an evening digest trigger.");
+  console.info("Installed a ten-minute alert trigger and an evening digest trigger.");
 }
 
 export function baselineExistingAlerts(): void {
